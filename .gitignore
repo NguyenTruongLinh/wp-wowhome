@@ -1,0 +1,9 @@
+wp-config.php
+.htaccess
+wp-content/uploads
+.DS_Store
+wp-content/cache
+wp-content/w3tc-config
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/db.php
