@@ -37,7 +37,7 @@ get_header();
             </div>
         </li>
     </ul>
-    <a href="#" class="btn btn-primary btn-shine" data-aos="fade-up" data-aos-duration="1000">Gia nhập WOWHOMES</a>
+    <a href="javascript:void(0);" class="btn btn-primary btn-shine b24-web-form-popup-btn-15" data-aos="fade-up" data-aos-duration="1000">Gia nhập WOWHOMES</a>
 </section>
 
 <section class="section-introduce text-center py-6 xl:px-0 px-4">
@@ -76,7 +76,7 @@ get_header();
                     <li class="md:w-4/12 w-6/12 md:text-base text-sm pr-4 border-r">Nhận ngay món quà sức khỏe BHNT khi thăng cấp </li>
                     <li class="md:w-4/12 w-6/12 md:text-base text-sm pl-4">Sở hữu bộ Vest đẳng cấp đạt chuẩn WowHomes </li>
                 </ul>
-                <a href="#" class="btn btn-primary btn-shine">Gia nhập WOWHOMES</a>
+                <a href="javascript:void(0);" class="btn btn-primary btn-shine b24-web-form-popup-btn-15">Gia nhập WOWHOMES</a>
             </div>
         </div>
     </div>
@@ -91,7 +91,7 @@ get_header();
         <p class="text-justify max-w-2xl md:text-base text-sm mb-6" data-aos="fade-right" data-aos-duration="1000">Tại WowHomes, với bộ máy vận hành chuyên nghiệp, kết hợp với công nghệ quản lý tiên tiến, chúng tôi tin rằng các đại lý và đối tác xứng đáng trải nghiệm những cách thức kinh doanh hiện đại trong lĩnh vực này. Chúng tôi xây dựng hệ thống công
             nghệ cho bất động sản, thay đổi tư duy bản thân, giúp đối tác dễ dàng hơn trong hành trình nâng tầm thương hiệu cá nhân.
         </p>
-        <a href="#" class="btn btn-primary btn-shine" data-aos="fade-up" data-aos-duration="1000">Gia nhập WOWHOMES</a>
+        <a href="javascript:void(0);" class="btn btn-primary btn-shine b24-web-form-popup-btn-15" data-aos="fade-up" data-aos-duration="1000">Gia nhập WOWHOMES</a>
     </div>
     <div class="reason-choose-wow mt-10 py-10">
         <div class="container-fluid mx-auto flex lg:flex-row flex-col-reverse items-center">
@@ -194,7 +194,7 @@ get_header();
                     </div>
                 </div>
                 <div class="text-left text-center">
-                    <a href="#" class="btn btn-primary btn-shine" data-aos="fade-up" data-aos-duration="1000">Gia nhập WOWHOMES</a>
+                    <a href="javascript:void(0);" class="btn btn-primary btn-shine b24-web-form-popup-btn-15" data-aos="fade-up" data-aos-duration="1000">Gia nhập WOWHOMES</a>
                 </div>
             </div>
             <div class="lg:w-6/12 lg:pl-8 lg:mt-0 mt-8" data-aos="zoom-in-up" data-aos-duration="1000">
@@ -324,6 +324,18 @@ get_header();
         <div class="max-w-3xl mx-auto" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="md:text-3xl text-2xl font-medium relative z-10 text-center">Đồng hành cùng WOWHOMES để tạo ra những giá trị đích thực</h2>
             <p class="text-center md:mt-6 mt-3 text-xs">Nếu bạn vẫn đang băn khoăn về một nơi có thể giúp bạn phát triển bản thân, cùng bạn tạo nên các giá trị đích thực và biến mục tiêu nghề nghiệp của bạn thành hiện thực thì WOWHOMES là sự lựa chọn lý tưởng dành cho bạn.</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <script id="bx24_form_inline" data-skip-moving="true">
+                (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+                    (w[b].forms=w[b].forms||[]).push(arguments[0])};
+                    if(w[b]['forms']) return;
+                    var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
+                    var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+                })(window,document,'https://hethongwowhomes.bitrix24.com/bitrix/js/crm/form_loader.js','b24form');
+
+                b24form({"id":"15","lang":"vn","sec":"3sln7y","type":"inline"});
+            </script>
         </div>
     </div>
 </section>
