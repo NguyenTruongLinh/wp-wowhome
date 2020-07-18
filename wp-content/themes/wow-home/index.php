@@ -50,9 +50,18 @@ get_header();
 
 <section class="section-policy md:py-24 py-16 xl:px-0 px-4">
     <div class="container mx-auto">
-        <div class="lg:flex block">
+        <div class="lg:flex items-center block">
             <div class="lg:w-5/12 lg:pr-5" data-aos="fade-right" data-aos-duration="1000">
-                <img class="w-full" src="<?php echo get_template_directory_uri() ?>/images/bg-policy.png" alt="policy">
+                <div class="owl-policy owl-carousel owl-theme">
+                    <?php $getposts = new WP_query(); $getposts->query('post_status=publish&post_type=policy'); ?>
+                    <?php global $wp_query; $wp_query->in_the_loop = true; ?>
+                    <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+                        <a href="<?php echo get_the_post_thumbnail_url() ?>" class="item">
+                            <img src="<?php echo get_the_post_thumbnail_url() ?>">
+                        </a>
+                    <?php endwhile; wp_reset_postdata(); ?>
+<!--                    <img class="w-full" src="--><?php //echo get_template_directory_uri() ?><!--/images/bg-policy.png" alt="policy">-->
+                </div>
             </div>
             <div class="lg:w-7/12 lg:pl-5 lg:mt-0 mt-6 text-center" data-aos="zoom-in-up" data-aos-duration="1000">
                 <h3 class="md:text-3xl text-2xl font-medium">CHÍNH SÁCH BROKER HIỆN ĐẠI</h3>
@@ -199,18 +208,13 @@ get_header();
             </div>
             <div class="lg:w-6/12 lg:pl-8 lg:mt-0 mt-8" data-aos="zoom-in-up" data-aos-duration="1000">
                 <div class="owl-benefit owl-carousel owl-theme">
-                    <a href="<?php echo get_template_directory_uri() ?>/images/company-img.png" class="item">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/company-img.png">
-                    </a>
-                    <a href="<?php echo get_template_directory_uri() ?>/images/company-img.png" class="item">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/company-img.png">
-                    </a>
-                    <a href="<?php echo get_template_directory_uri() ?>/images/company-img.png" class="item">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/company-img.png">
-                    </a>
-                    <a href="<?php echo get_template_directory_uri() ?>/images/company-img.png" class="item">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/company-img.png">
-                    </a>
+                    <?php $getposts = new WP_query(); $getposts->query('post_status=publish&post_type=benefit'); ?>
+                    <?php global $wp_query; $wp_query->in_the_loop = true; ?>
+                    <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+                        <a href="<?php echo get_the_post_thumbnail_url() ?>" class="item">
+                            <img src="<?php echo get_the_post_thumbnail_url() ?>">
+                        </a>
+                    <?php endwhile; wp_reset_postdata(); ?>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.owl-benefit').owlCarousel({
+    $('.owl-carousel').owlCarousel({
         loop: false,
         items: 1,
         nav: true,
@@ -7,7 +7,7 @@ $(document).ready(function() {
         navText: ['<i class="zmdi zmdi-chevron-left"></i>', '<i class="zmdi zmdi-chevron-right"></i>']
     });
 
-    $('.owl-benefit').lightGallery({
+    $('.owl-carousel').lightGallery({
         selector: '.item'
     });
 

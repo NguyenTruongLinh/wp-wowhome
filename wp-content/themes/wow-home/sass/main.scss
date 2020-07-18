@@ -288,72 +288,73 @@ header {
     p {
         width: calc(100% - 80px);
     }
-    .owl-benefit {
-        position: relative;
-        z-index: 9;
-        &::before {
-            content: '';
-            position: absolute;
-            top: -5px;
-            right: -5px;
-            width: 70%;
-            height: 50%;
-            clip-path: polygon(0 0, 100% 100%, 100% 0);
-            background: $primary;
-            z-index: -1;
-        }
-        &::after {
-            content: '';
-            position: absolute;
-            left: -5px;
-            bottom: -5px;
-            width: 30%;
-            height: 30%;
-            clip-path: polygon(0 0, 100% 100%, 0 100%);
-            background: $primary;
-            z-index: -1;
-        }
-        &.owl-theme {
-            .owl-nav {
-                margin-top: 0;
-                width: 100%;
-                button {
-                    position: absolute;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    outline: none;
-                    margin: 0;
-                    width: 40px;
-                    height: 40px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    border-radius: 50%;
-                    background: rgba(255, 255, 255, .4);
-                    cursor: pointer;
-                    &:hover {
-                        background: rgba(255, 255, 255, .86);
-                    }
-                    &.owl-prev {
-                        left: 5px;
-                    }
-                    &.owl-next {
-                        right: 5px;
-                    }
-                    i {
-                        font-size: 30px;
-                    }
+}
+
+.owl-carousel {
+    position: relative;
+    z-index: 9;
+    &::before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        width: 70%;
+        height: 50%;
+        clip-path: polygon(0 0, 100% 100%, 100% 0);
+        background: $primary;
+        z-index: -1;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        left: -5px;
+        bottom: -5px;
+        width: 30%;
+        height: 30%;
+        clip-path: polygon(0 0, 100% 100%, 0 100%);
+        background: $primary;
+        z-index: -1;
+    }
+    &.owl-theme {
+        .owl-nav {
+            margin-top: 0;
+            width: 100%;
+            button {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                outline: none;
+                margin: 0;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                background: rgba(255, 255, 255, .4);
+                cursor: pointer;
+                &:hover {
+                    background: rgba(255, 255, 255, .86);
+                }
+                &.owl-prev {
+                    left: 5px;
+                }
+                &.owl-next {
+                    right: 5px;
+                }
+                i {
+                    font-size: 30px;
                 }
             }
         }
-        a {
-            display: block;
-            overflow: hidden;
-            img {
-                transition: all .3s ease-in-out;
-                &:hover {
-                    transform: scale(1.1);
-                }
+    }
+    a {
+        display: block;
+        overflow: hidden;
+        img {
+            transition: all .3s ease-in-out;
+            &:hover {
+                transform: scale(1.1);
             }
         }
     }

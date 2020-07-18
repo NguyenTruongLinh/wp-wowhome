@@ -181,3 +181,88 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+function webapptiv_remove_block_library_css()
+{
+    wp_dequeue_style( 'wp-block-library' );
+}
+add_action( 'wp_enqueue_scripts', 'webapptiv_remove_block_library_css' );
+
+// Remove jQuery Migrate Script from header and Load jQuery from Google API
+function crunchify_stop_loading_wp_embed() {
+    if (!is_admin()) {
+        wp_deregister_script('wp-embed');
+    }
+}
+add_action('init', 'crunchify_stop_loading_wp_embed');
+
+// Remove Emoji js & css
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
+
+// Gallery benefit
+add_theme_support('benefit');
+function benefit()
+{
+    $label = array(
+        'name' => 'Hình ảnh lợi ích',
+        'benefit' => 'benefit'
+    );
+
+    $args = array(
+        'labels' => $label,
+        'description' => 'Custom Gallery Library',
+        'supports' => array(
+            'title',
+            'thumbnail'
+        ),
+        'hierarchical' => false,
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'show_in_nav_menus' => true,
+        'show_in_admin_bar' => true,
+        'menu_position' => 12,
+        'menu_icon' => 'dashicons-format-gallery',
+        'can_export' => true,
+        'has_archive' => true,
+        'exclude_from_search' => true,
+        'publicly_queryable' => true,
+        'capability_type' => 'post'
+    );
+    register_post_type('benefit', $args);
+}
+add_action('init', 'benefit');
+
+// Gallery policy
+add_theme_support('policy');
+function policy()
+{
+    $label = array(
+        'name' => 'Hình ảnh chính sách',
+        'policy' => 'policy'
+    );
+
+    $args = array(
+        'labels' => $label,
+        'description' => 'Custom Gallery Library',
+        'supports' => array(
+            'title',
+            'thumbnail'
+        ),
+        'hierarchical' => false,
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'show_in_nav_menus' => true,
+        'show_in_admin_bar' => true,
+        'menu_position' => 11,
+        'menu_icon' => 'dashicons-format-gallery',
+        'can_export' => true,
+        'has_archive' => true,
+        'exclude_from_search' => true,
+        'publicly_queryable' => true,
+        'capability_type' => 'post'
+    );
+    register_post_type('policy', $args);
+}
+add_action('init', 'policy');
