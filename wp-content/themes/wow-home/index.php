@@ -63,7 +63,7 @@ get_header();
                     </li>
                     <li class="md:w-4/12 w-6/12 md:border-r">
                         <p class="md:text-base text-sm">Mô hình Broker Thu nhập không giới hạn </p>
-                        <span class="md:text-5xl text-2xl font-bold color-primary">∞</span>
+                        <span class="md:text-6xl text-2xl leading-none font-bold color-primary">∞</span>
                     </li>
                     <li class="md:w-4/12 w-6/12 md:mt-0 mt-4">
                         <p class="md:text-base text-sm">Hoa hồng lũy tiến theo từng cấp bậc lên đến </p>
@@ -145,25 +145,25 @@ get_header();
                             <div class="cover-img mr-6">
                                 <img class="" src="<?php echo get_template_directory_uri() ?>/images/icon/benefit/book.png" alt="book">
                             </div>
-                            <p class="text-sm">Được đào tạo bài bản, chuyên nghiệp về kỹ năng bán hàng.</p>
+                            <p class="text-sm text-justify">Được đào tạo bài bản, chuyên nghiệp về kỹ năng bán hàng.</p>
                         </div>
                         <div class="flex items-center border-t pb-3 pt-3">
                             <div class="cover-img mr-5">
                                 <img class="" src="<?php echo get_template_directory_uri() ?>/images/icon/benefit/person-growup.png" alt="person">
                             </div>
-                            <p class="text-sm">Lộ trình thăng tiến rõ ràng.</p>
+                            <p class="text-sm text-justify">Lộ trình thăng tiến rõ ràng.</p>
                         </div>
                         <div class="flex items-center border-t pb-3 pt-3">
                             <div class="cover-img mr-5">
                                 <img class="" src="<?php echo get_template_directory_uri() ?>/images/icon/benefit/check-note.png" alt="check-note">
                             </div>
-                            <p class="text-sm">Có chính sách phúc lợi, quyền lợi cụ thể.</p>
+                            <p class="text-sm text-justify">Có chính sách phúc lợi, quyền lợi cụ thể.</p>
                         </div>
                         <div class="flex items-center border-t pt-3">
                             <div class="cover-img mr-5">
                                 <img class="" src="<?php echo get_template_directory_uri() ?>/images/icon/benefit/person-group.png" alt="person">
                             </div>
-                            <p class="text-sm">Đội ngũ hỗ trợ Sale chuyên nghiệp, nhiệt tình.</p>
+                            <p class="text-sm text-justify">Đội ngũ hỗ trợ Sale chuyên nghiệp, nhiệt tình.</p>
                         </div>
                     </div>
                     <div class="md:w-6/12 md:pl-6">
@@ -171,25 +171,25 @@ get_header();
                             <div class="cover-img mr-5">
                                 <img class="" src="<?php echo get_template_directory_uri() ?>/images/icon/benefit/market.png" alt="market">
                             </div>
-                            <p class="text-sm">Thu nhập không giới hạn tùy vào kỹ năng và kinh nghiệm bán hàng.</p>
+                            <p class="text-sm text-justify">Thu nhập không giới hạn tùy vào kỹ năng và kinh nghiệm bán hàng.</p>
                         </div>
                         <div class="flex items-center border-t pb-3 pt-3">
                             <div class="cover-img mr-5">
                                 <img class="" src="<?php echo get_template_directory_uri() ?>/images/icon/benefit/hand-dolla.png" alt="hand-dolla">
                             </div>
-                            <p class="text-sm">Phí môi giới cao - trả phí nhanh.</p>
+                            <p class="text-sm text-justify">Phí môi giới cao - trả phí nhanh.</p>
                         </div>
                         <div class="flex items-center border-t pb-3 pt-3">
                             <div class="cover-img mr-5">
                                 <img class="" src="<?php echo get_template_directory_uri() ?>/images/icon/benefit/multiple.png" alt="multiple">
                             </div>
-                            <p class="text-sm">Sản phẩm đa dạng <strong>Rừng vàng - Biển bạc</strong>.</p>
+                            <p class="text-sm text-justify">Sản phẩm đa dạng <br><strong>Rừng vàng - Biển bạc</strong>.</p>
                         </div>
                         <div class="flex items-center border-t pt-3">
                             <div class="cover-img mr-5">
                                 <img class="" src="<?php echo get_template_directory_uri() ?>/images/icon/benefit/connect-person.png" alt="connect-person">
                             </div>
-                            <p class="text-sm">Môi trường làm việc nghiêm túc - năng động - thân thiện - hỗ trợ lẫn nhau.</p>
+                            <p class="text-sm text-justify">Môi trường làm việc nghiêm túc - năng động - thân thiện - hỗ trợ lẫn nhau.</p>
                         </div>
                     </div>
                 </div>
