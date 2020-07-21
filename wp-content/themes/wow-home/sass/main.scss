@@ -9,6 +9,10 @@ $black: #000000;
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -137,6 +141,9 @@ header {
         li {
             transition: all .2s ease-in-out;
             &:hover {
+                color: $primary;
+            }
+            &.active {
                 color: $primary;
             }
         }
@@ -348,7 +355,7 @@ header {
             }
         }
     }
-    a {
+    .item {
         display: block;
         overflow: hidden;
         img {

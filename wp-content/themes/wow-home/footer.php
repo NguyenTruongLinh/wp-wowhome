@@ -41,21 +41,23 @@
         <div class="md:flex items-center justify-between relative mt-10">
             <div class="lg:w-4/12 md:w-6/12 lg:pr-0 pr-4 relative z-10 md:mb-0 mb-5" data-aos="fade-down" data-aos-duration="1000">
                 <div class="logo w-7/12 mx-auto">
-                    <img src="<?php echo get_template_directory_uri() ?>/images/logo/logo-white.png" alt="logo">
+                    <a href="http://wowhomes.vn">
+                        <img src="<?php echo get_template_directory_uri() ?>/images/logo/logo-white.png" alt="logo">
+                    </a>
                 </div>
                 <h4 class="mt-4 lg:text-2xl text-lg text-white text-center">CÔNG TY CỔ PHẦN WOWHOMES</h4>
             </div>
             <div class="lg:w-5/12 md:w-6/12 lg:pl-0 pl-4 link">
                 <div class="flex justify-end text-white relative z-10" data-aos="fade-up" data-aos-duration="1000">
                     <div class="lg:w-4/12 w-6/12 md:text-left text-center">
-                        <div class="mb-5"><a class="py-1 inline-block" href="#">TRANG CHỦ</a></div>
-                        <div class="mb-5"><a class="py-1 inline-block" href="#">GIỚI THIỆU</a></div>
-                        <div><a class="py-1 inline-block" href="#">TẦM NHÌN</a></div>
+                        <div class="mb-5"><a class="py-1 inline-block" href="http://wowhomes.vn">TRANG CHỦ</a></div>
+                        <div class="mb-5"><a class="py-1 inline-block" href="#gioi-thieu">GIỚI THIỆU</a></div>
+                        <div><a class="py-1 inline-block" href="#tam-nhin">TẦM NHÌN</a></div>
                     </div>
                     <div class="lg:w-4/12 w-6/12 md:text-left text-center">
-                        <div class="mb-5"><a class="py-1 inline-block" href="#">CHÍNH SÁCH</a></div>
-                        <div class="mb-5"><a class="py-1 inline-block" href="#">TIN TỨC</a></div>
-                        <div><a class="py-1 inline-block" href="#">LIÊN HỆ</a></div>
+                        <div class="mb-5"><a class="py-1 inline-block" href="#chinh-sach">CHÍNH SÁCH</a></div>
+                        <div class="mb-5"><a class="py-1 inline-block" href="http://wowhomes.vn/chuyen-dong-cung-wow">TIN TỨC</a></div>
+                        <div><a class="py-1 inline-block" href="#lien-he">LIÊN HỆ</a></div>
                     </div>
                 </div>
             </div>
@@ -76,8 +78,8 @@
 <?php wp_footer(); ?>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.7.2/dist/js/lightgallery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.7.2/modules/lg-thumbnail.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.7.2/dist/js/lightgallery.min.js"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.7.2/modules/lg-thumbnail.min.js"></script>-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="<?php echo get_template_directory_uri() ?>/js/main.js"></script>
 </body>

@@ -40,15 +40,15 @@ get_header();
     <a href="javascript:void(0);" class="btn btn-primary btn-shine b24-web-form-popup-btn-15" data-aos="fade-up" data-aos-duration="1000">Gia nhập WOWHOMES</a>
 </section>
 
-<section class="section-introduce text-center py-6 xl:px-0 px-4">
+<section class="section-introduce text-center py-6 xl:px-0 px-4" id="gioi-thieu">
     <h2 class="md:text-3xl text-2xl tracking-wider font-medium" data-aos="fade-down" data-aos-duration="1000">GIỚI THIỆU WOWHOMES</h2>
     <p class="md:text-base text-sm max-w-6xl mx-auto text-justify mt-4 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">Định vị trở thành đơn vị phát triển, hệ thống phân phối bất động sản hàng đầu tại Việt Nam, WOWHOMES tự hào là thương hiệu tiên phong và uy tín trong phân khúc nghỉ dưỡng, đất nền ven biển và mô hình đầu tư xanh bền vững có sự cam kết nhất quán
         cùng chính sách bán hàng hấp dẫn nhất thị trường. Với chiến lược kinh doanh rõ ràng ngay từ những ngày đầu thành lập, WowHomes tự tin mang đến cho quý đối tác những cơ hội hợp tác lâu dài, cùng mô hình BROKER hiện đại nhất, nhằm tạo ra giá
         trị gia tăng thu nhập tốt nhất, thăng hoa sự nghiệp từ chính những sản phẩm Bất động sản ưu Việt.</p>
-    <a class="btn btn-white-outline" href="#" data-aos="fade-up" data-aos-duration="1000">Tìm hiểu thêm</a>
+    <a class="btn btn-white-outline" href="http://wowhomes.vn/gioi-thieu" data-aos="fade-up" data-aos-duration="1000">Tìm hiểu thêm</a>
 </section>
 
-<section class="section-policy md:py-24 py-16 xl:px-0 px-4">
+<section class="section-policy md:py-24 py-16 xl:px-0 px-4" id="chinh-sach">
     <div class="container mx-auto">
         <div class="lg:flex items-center block">
             <div class="lg:w-5/12 lg:pr-5" data-aos="fade-right" data-aos-duration="1000">
@@ -56,9 +56,9 @@ get_header();
                     <?php $getposts = new WP_query(); $getposts->query('post_status=publish&post_type=policy'); ?>
                     <?php global $wp_query; $wp_query->in_the_loop = true; ?>
                     <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-                        <a href="<?php echo get_the_post_thumbnail_url() ?>" class="item">
+                        <div href="<?php echo get_the_post_thumbnail_url() ?>" class="item">
                             <img src="<?php echo get_the_post_thumbnail_url() ?>">
-                        </a>
+                        </div>
                     <?php endwhile; wp_reset_postdata(); ?>
 <!--                    <img class="w-full" src="--><?php //echo get_template_directory_uri() ?><!--/images/bg-policy.png" alt="policy">-->
                 </div>
@@ -91,7 +91,7 @@ get_header();
     </div>
 </section>
 
-<section class="section-new_direction py-10">
+<section class="section-new_direction py-10" id="tam-nhin">
     <div class="container mx-auto xl:px-0 px-4 md:text-left text-center">
         <h2 class="md:text-3xl text-2xl font-medium mb-4" data-aos="fade-down" data-aos-duration="1000">HƯỚNG ĐI MỚI TẠO NÊN <br> THƯƠNG HIỆU TIÊN PHONG</h2>
         <p class="text-justify max-w-2xl md:text-base text-sm mb-2" data-aos="fade-right" data-aos-duration="1000">Bất động sản là một loại tài sản toàn cầu mang giá trị hàng nghìn tỷ đô la, nhưng phần lớn nó vẫn chưa được sử dụng bởi công nghệ. Quyết định mua và bán là một trong những quyết định quan trọng nhất mà một người có thể đưa ra trong cuộc sống.
@@ -211,9 +211,9 @@ get_header();
                     <?php $getposts = new WP_query(); $getposts->query('post_status=publish&post_type=benefit'); ?>
                     <?php global $wp_query; $wp_query->in_the_loop = true; ?>
                     <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-                        <a href="<?php echo get_the_post_thumbnail_url() ?>" class="item">
+                        <div href="<?php echo get_the_post_thumbnail_url() ?>" class="item">
                             <img src="<?php echo get_the_post_thumbnail_url() ?>">
-                        </a>
+                        </div>
                     <?php endwhile; wp_reset_postdata(); ?>
                 </div>
             </div>
@@ -221,7 +221,7 @@ get_header();
     </div>
 </section>
 
-<section class="section-top_reason md:py-16 py-10 xl:px-0 px-4">
+<section class="section-top_reason md:py-16 py-10 xl:px-0 px-4" id="ly-do">
     <div class="container mx-auto relative">
         <h2 class="md:text-3xl text-2xl font-medium mb-6 text-center mb-10" data-aos="zoom-in" data-aos-duration="1000">TOP 6 LÝ DO THAM GIA CHƯƠNG TRÌNH HỢP TÁC KINH DOANH CÙNG WOWHOMES (BROKER)</h2>
         <div class="flex flex-wrap py-4 border-2 border-primary bg-white" data-aos="fade-up" data-aos-duration="1000">
@@ -320,7 +320,7 @@ get_header();
     </div>
 </section>
 
-<section class="section-form_register py-16 lg:px-0 px-4">
+<section class="section-form_register py-16 lg:px-0 px-4" id="lien-he">
     <div class="container mx-auto">
         <div class="logo md:w-3/12 w-5/12 mx-auto md:mb-8 mb-4 line-height-normal" data-aos="fade-down" data-aos-duration="1000">
             <img src="<?php echo get_template_directory_uri() ?>/images/logo/logo-2.png" alt="logo">

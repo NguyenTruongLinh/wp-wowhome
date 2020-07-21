@@ -22,7 +22,7 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.7.2/css/lightgallery.min.css">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.7.2/css/lightgallery.min.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
@@ -33,18 +33,18 @@
 <header>
     <div class="container-fluid mx-auto flex justify-between items-center xl:px-0 px-4">
         <div class="logo">
-            <a href="#">
+            <a href="<?php echo home_url() ?>">
                 <img src="<?php echo get_template_directory_uri() ?>/images/logo/logo.png" alt="logo">
             </a>
         </div>
         <nav class="xl:block hidden">
             <ul class="xl:flex">
                 <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#">Trang chủ WowHomes</a></li>
-                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#">Giới thiệu</a></li>
-                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#">Tầm nhìn</a></li>
-                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#">Chính sách</a></li>
-                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#">Tin Tức</a></li>
-                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#">Liên Hệ</a></li>
+                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#gioi-thieu">Giới thiệu</a></li>
+                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#tam-nhin">Tầm nhìn</a></li>
+                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#chinh-sach">Chính sách</a></li>
+                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#ly-do">6 lý do</a></li>
+                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#lien-he">Liên Hệ</a></li>
                 <li class="font-medium">
                     <a href="tel:028 226 2727" class="btn-hotline">Hotline: 028.226.2727</a>
                 </li>
