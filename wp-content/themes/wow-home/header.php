@@ -39,7 +39,7 @@
         </div>
         <nav class="xl:block hidden">
             <ul class="xl:flex">
-                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#">Trang chủ WowHomes</a></li>
+                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="http://wowhomes.vn">Trang chủ WowHomes</a></li>
                 <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#gioi-thieu">Giới thiệu</a></li>
                 <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#tam-nhin">Tầm nhìn</a></li>
                 <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#chinh-sach">Chính sách</a></li>
