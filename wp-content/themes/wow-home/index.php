@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-<section class="section-banner pt-24 pb-10 text-center xl:px-0 px-4">
+<section class="section-banner pt-24 pb-10 text-center px-4">
     <h1 class="relative text-center text-white md:text-4xl text-2xl font-bold tracking-widest color-primary" data-aos="fade-down" data-aos-duration="1000">BẠN ĐANG TÌM KIẾM</h1>
     <ul class="relative flex md:flex-row flex-col justify-center items-center mt-6 mb-12" data-aos="zoom-in" data-aos-duration="1000">
         <li class="md:mr-20 md:mb-0 mb-8">
@@ -40,7 +40,7 @@ get_header();
     <a href="javascript:void(0);" class="btn btn-primary btn-shine b24-web-form-popup-btn-15" data-aos="fade-up" data-aos-duration="1000">Gia nhập WOWHOMES</a>
 </section>
 
-<section class="section-introduce text-center py-6 xl:px-0 px-4" id="gioi-thieu">
+<section class="section-introduce text-center py-6 px-4" id="gioi-thieu">
     <h2 class="md:text-3xl text-2xl tracking-wider font-medium" data-aos="fade-down" data-aos-duration="1000">GIỚI THIỆU WOWHOMES</h2>
     <p class="md:text-base text-sm max-w-6xl mx-auto text-justify mt-4 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">Định vị trở thành đơn vị phát triển, hệ thống phân phối bất động sản hàng đầu tại Việt Nam, WOWHOMES tự hào là thương hiệu tiên phong và uy tín trong phân khúc nghỉ dưỡng, đất nền ven biển và mô hình đầu tư xanh bền vững có sự cam kết nhất quán
         cùng chính sách bán hàng hấp dẫn nhất thị trường. Với chiến lược kinh doanh rõ ràng ngay từ những ngày đầu thành lập, WowHomes tự tin mang đến cho quý đối tác những cơ hội hợp tác lâu dài, cùng mô hình BROKER hiện đại nhất, nhằm tạo ra giá
@@ -48,7 +48,7 @@ get_header();
     <a class="btn btn-white-outline" href="http://wowhomes.vn/gioi-thieu" data-aos="fade-up" data-aos-duration="1000">Tìm hiểu thêm</a>
 </section>
 
-<section class="section-policy md:py-24 py-16 xl:px-0 px-4" id="chinh-sach">
+<section class="section-policy md:py-24 py-16 px-4" id="chinh-sach">
     <div class="container mx-auto">
         <div class="lg:flex items-center block">
             <div class="lg:w-5/12 lg:pr-5" data-aos="fade-right" data-aos-duration="1000">
@@ -65,14 +65,14 @@ get_header();
             </div>
             <div class="lg:w-7/12 lg:pl-5 lg:mt-0 mt-6 text-center" data-aos="zoom-in-up" data-aos-duration="1000">
                 <h3 class="md:text-3xl text-2xl font-medium">CHÍNH SÁCH BROKER HIỆN ĐẠI</h3>
-                <ul class="flex md:flex-nowrap flex-wrap items-center justify-around mt-5">
+                <ul class="flex md:flex-nowrap flex-wrap md:items-center justify-around mt-5">
                     <li class="md:w-4/12 w-6/12 border-r">
                         <p class="md:text-base text-sm">Tổng phí môi giới 6% cao nhất thị trường </p>
                         <span class="md:text-5xl text-2xl font-bold color-primary">6%</span>
                     </li>
                     <li class="md:w-4/12 w-6/12 md:border-r">
                         <p class="md:text-base text-sm">Mô hình Broker Thu nhập không giới hạn </p>
-                        <span class="md:text-6xl text-2xl leading-none font-bold color-primary">∞</span>
+                        <span class="md:text-6xl text-4xl leading-none font-bold color-primary">∞</span>
                     </li>
                     <li class="md:w-4/12 w-6/12 md:mt-0 mt-4">
                         <p class="md:text-base text-sm">Hoa hồng lũy tiến theo từng cấp bậc lên đến </p>
@@ -92,7 +92,7 @@ get_header();
 </section>
 
 <section class="section-new_direction py-10" id="tam-nhin">
-    <div class="container mx-auto xl:px-0 px-4 md:text-left text-center">
+    <div class="container mx-auto px-4 md:text-left text-center">
         <h2 class="md:text-3xl text-2xl font-medium mb-4" data-aos="fade-down" data-aos-duration="1000">HƯỚNG ĐI MỚI TẠO NÊN <br> THƯƠNG HIỆU TIÊN PHONG</h2>
         <p class="text-justify max-w-2xl md:text-base text-sm mb-2" data-aos="fade-right" data-aos-duration="1000">Bất động sản là một loại tài sản toàn cầu mang giá trị hàng nghìn tỷ đô la, nhưng phần lớn nó vẫn chưa được sử dụng bởi công nghệ. Quyết định mua và bán là một trong những quyết định quan trọng nhất mà một người có thể đưa ra trong cuộc sống.
             Nhưng ngày nay, phần lớn các quyết định đó đang dựa trên bản năng cảm tính hoặc những thông tin lỗi thời.
@@ -143,7 +143,7 @@ get_header();
     </div>
 </section>
 
-<section class="section-benefit md:py-16 py-10 xl:px-0 px-4">
+<section class="section-benefit md:py-16 py-10 px-4">
     <div class="container mx-auto">
         <div class="lg:flex items-center">
             <div class="lg:w-6/12 lg:pr-4">
@@ -221,7 +221,7 @@ get_header();
     </div>
 </section>
 
-<section class="section-top_reason md:py-16 py-10 xl:px-0 px-4" id="ly-do">
+<section class="section-top_reason md:py-16 py-10 px-4" id="ly-do">
     <div class="container mx-auto relative">
         <h2 class="md:text-3xl text-2xl font-medium mb-6 text-center mb-10" data-aos="zoom-in" data-aos-duration="1000">TOP 6 LÝ DO THAM GIA CHƯƠNG TRÌNH HỢP TÁC KINH DOANH CÙNG WOWHOMES (BROKER)</h2>
         <div class="flex flex-wrap py-4 border-2 border-primary bg-white" data-aos="fade-up" data-aos-duration="1000">

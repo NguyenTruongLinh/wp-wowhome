@@ -29,7 +29,6 @@ $(document).ready(function() {
             headerHeight = $("header").height(); // Get fixed header height
 
         target = target.length ? target : $('[name=' + hash.slice(1) +']');
-        console.log(target)
 
         if (target.length) {
             $('html,body').animate({
@@ -39,16 +38,16 @@ $(document).ready(function() {
         }
     }
 
-    $(window).scroll(function () {
-        console.log(location.hash)
-    });
-
     if(window.location.hash) {
         scrollToAnchor(window.location.hash);
     }
 
     $("a[href*=\\#]:not([href=\\#])").click(function(event) {
         event.preventDefault();
+        if ($(window).width() <= 1280) {
+            // $('header nav').slideUp();
+            $('#nav-icon3').trigger('click');
+        }
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
             || location.hostname == this.hostname) {
             $('header nav').find('li').removeClass('active');

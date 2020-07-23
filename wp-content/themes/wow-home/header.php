@@ -17,6 +17,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri() ?>/images/favicon.png" sizes="32x32" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Trang chủ - Broker WowHomes" />
+    <meta property="og:url" content="http://broker.wowhomes.vn/" />
+    <meta property="og:site_name" content="Broker WowHomes" />
+    <meta property="og:image" content="http://wowhomes.vn/wp-content/uploads/2019/10/faviicon-wow.png">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Trang chủ - Broker WowHomes" />
     <?php wp_head(); ?>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
@@ -31,7 +39,7 @@
 
 <body>
 <header>
-    <div class="container-fluid mx-auto flex justify-between items-center xl:px-0 px-4">
+    <div class="container-fluid mx-auto flex justify-between items-center px-4">
         <div class="logo">
             <a href="<?php echo home_url() ?>">
                 <img src="<?php echo get_template_directory_uri() ?>/images/logo/logo.png" alt="logo">
