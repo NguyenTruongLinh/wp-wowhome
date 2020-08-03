@@ -223,72 +223,62 @@ get_header();
 
 <section class="section-top_reason md:py-16 py-10 px-4" id="ly-do">
     <div class="container mx-auto relative">
-        <h2 class="md:text-3xl text-2xl font-medium mb-6 text-center mb-10" data-aos="zoom-in" data-aos-duration="1000">TOP 6 LÝ DO THAM GIA CHƯƠNG TRÌNH HỢP TÁC KINH DOANH CÙNG WOWHOMES (BROKER)</h2>
+        <h2 class="md:text-3xl text-2xl font-medium text-center mb-5" data-aos="zoom-in" data-aos-duration="1000">TOP 5 LÝ DO THAM GIA CHƯƠNG TRÌNH HỢP TÁC KINH DOANH CÙNG WOWHOMES (BROKER)</h2>
+        <p class="text-center mb-10">Chương trình hợp tác kinh doanh cùng WowHomes là mô hình khởi nghiệp, làm chủ doanh nghiệp trong lòng doanh nghiệp, với chính sách kinh doanh hiện đại, tạo động lực mạnh mẽ, sản phẩm có lợi thế cạnh tranh đặc biệt và số lượng lớn. Mang đến cơ hội phát triển sự nghiệp lâu dài, đồng hành cùng tạo ra giá trị cho bản thân, gia đình và xã hộ</p>
         <div class="flex flex-wrap py-4 border-2 border-primary bg-white" data-aos="fade-up" data-aos-duration="1000">
             <div class="lg:w-4/12 md:w-6/12 border-b-2 md:border-r-2 border-primary pb-4 pr-4 pl-4">
-                <div class="flex md:items-start items-center">
+                <div class="flex md:items-center items-center">
                     <div class="w-6/12 cover-img">
                         <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/maps.png" alt="maps">
                     </div>
                     <div class="w-6/12 pl-4">
-                        <h4 class="text-sm font-medium mb-2">VỊ TRÍ CHIẾN LƯỢC</h4>
-                        <p class="text-xs text-justify">Cách thủ đô Hà Nội khoảng 150km phía Đông Bắc, là điểm đầu tiên của Việt Nam có 2 tuyến hành lang kinh tế Nam Ninh (Trung Quốc) và hành lang Xuyên Á Nam Ninh - Singapore, kết nối Lạng Sơn với Hà Nội, Hải Phòng, Quảng Ninh</p>
+                        <h4 class="text-sm font-medium mb-2">SẢN PHẨM TỐT</h4>
+                        <p class="text-xs text-justify">Sản phẩm tiên phong, pháp lý rõ ràng, mang đến giá trị tốt cho khách hàng, có lợi thế cạnh tranh và số lượng nhiều, đáp ứng triển khai lâu dài. Là người tiên phong và tự hào khi mang đến giá trị cho Khách Hàng và Bản Thân, thông qua đó mang lại giá trị cho tự nhiên, xã hội và đất nước.</p>
                     </div>
                 </div>
             </div>
             <div class="lg:w-4/12 md:w-6/12 border-b-2 lg:border-r-2 border-primary md:pt-0 pt-4 pb-4 pr-4 pl-4">
-                <div class="flex md:items-start items-center md:flex-row flex-row-reverse">
+                <div class="flex md:items-center items-center md:flex-row flex-row-reverse">
                     <div class="w-6/12 cover-img">
                         <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/high-way.png" alt="high-way">
                     </div>
                     <div class="w-6/12 md:pl-4 pr-4">
-                        <h4 class="text-sm font-medium mb-2">HẠ TẦNG GIAO THÔNG ĐƯỢC QUY HOẠCH BÀI BẢN</h4>
-                        <p class="text-xs text-justify">Các tuyến đường liên tỉnh như quốc lộ 1A hữu nghị Lạng Sơn 170km kết nối cao tốc Nam Hữu qua cửa khẩu Hữu Nghị đi Quảng Ninh, Trung Quốc và nhiều tuyến đường sắt liên tỉnh</p>
+                        <h4 class="text-sm font-medium mb-2">PHƯƠNG PHÁP TỐT</h4>
+                        <p class="text-xs text-justify">Áp dụng phương pháp thành công đã được kiểm chứng, có mục tiêu, kế hoạch hành động trên việc xác lập các tiêu chí, tiêu chuẩn để hoàn thành mục tiêu. Đào tạo, coaching đi vào chiều sâu nhằm nâng cao năng lực tức thì, ứng dụng công nghệ giúp tiết kiệm thời gian và mang lại hiệu quả.</p>
                     </div>
                 </div>
             </div>
             <div class="lg:w-4/12 md:w-6/12 border-b-2 border-primary lg:border-r-0 md:border-r-2 lg:pt-0 pt-4 pb-4 pl-4 pr-4">
-                <div class="flex md:items-start items-center">
+                <div class="flex md:items-center items-center">
                     <div class="w-6/12 cover-img">
                         <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/signature.png" alt="signature">
                     </div>
                     <div class="w-6/12 pl-4">
-                        <h4 class="text-sm font-medium mb-2">TIỀM NĂNG TĂNG GIÁ VÔ HẠN</h4>
-                        <p class="text-xs text-justify">Theo các chuyên gia dự báo, khi các dự án lớn đang triển khai thu hút nhiều dòng vốn FDI về đây sẽ giúp đất đai tại khu vực này tăng trưởng mạnh từ 50% - 300% thậm chí 500% trong vòng 1 đến 3 năm tới đây</p>
+                        <h4 class="text-sm font-medium mb-2">SỰ NGHIỆP TỐT</h4>
+                        <p class="text-xs text-justify">Cơ hội phát triển thu nhập, phát triển bản thân và cơ hội thăng tiến rõ ràng cùng với sự phát triển của Công Ty. Đồng hành lâu dài cùng nhau trên cơ sở chia sẻ trách nhiệm và quyền lợi tương ứng.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="lg:w-4/12 md:w-6/12 pt-4 pr-4 md:pb-0 pb-4 lg:border-r-2 lg:border-b-0 border-b-2 border-primary pl-4">
-                <div class="flex md:items-start items-center">
+            <div class="lg:w-6/12 md:w-6/12 pt-4 pr-4 md:pb-0 pb-4 lg:border-r-2 lg:border-b-0 border-b-2 border-primary pl-4">
+                <div class="flex md:items-center items-center">
                     <div class="w-6/12 pr-4">
-                        <h4 class="text-sm font-medium mb-2">LỢI TỨC HẤP DẪN CHO NHÀ ĐẦU TƯ</h4>
-                        <p class="text-xs text-justify">Tỉnh Lạng Sơn có diện tích: 8310 km2, trong đó 512,559 đất rừng lâm nghiệp, chiếm 61% tổng diện tích đất. Mức lợi tức ít nhất từ việc khai thác gỗ chu kỳ 5 năm, doanh thu ước tính đạt 200 triệu/ha trong năm thứ 3</p>
+                        <h4 class="text-sm font-medium mb-2">CHÍNH SÁCH TỐT</h4>
+                        <p class="text-xs text-justify">Chính sách kinh doanh hiện đại, hoa hồng hấp dẫn và tốc hành, vừa có thu nhập chủ động từ việc bán hàng, vừa có thu nhập thụ động từ việc phát triển hệ thống kinh doanh, có sự công bằng theo cả chiều ngang và chiều dọc. Tạo động lực lớn khi những nỗ lực của ngày hôm nay được kế thừa trong tương lai</p>
                     </div>
                     <div class="w-6/12 cover-img">
                         <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/invest.png" alt="invest">
                     </div>
                 </div>
             </div>
-            <div class="lg:w-4/12 md:w-6/12 pt-4 pl-4 pr-4 md:pb-0 pb-4 md:border-r-2 md:border-b-0 border-b-2 border-primary">
-                <div class="flex md:items-start items-center md:flex-row flex-row-reverse">
+            <div class="lg:w-6/12 md:w-6/12 pt-4 pr-4 md:pb-0 pb-4 border-primary">
+                <div class="flex md:items-center items-center md:flex-row flex-row-reverse">
                     <div class="w-6/12 md:pr-4 pl-4">
-                        <h4 class="text-sm font-medium mb-2">PHÁP LÝ RÕ RÀNG MINH BẠCH</h4>
-                        <p class="text-xs text-justify">Có sổ đổ cho từng hecta</p>
+                        <h4 class="text-sm font-medium mb-2">MÔI TRƯỜNG TỐT</h4>
+                        <p class="text-xs text-justify">Lãnh đạo tâm huyết, định hướng lâu dài, chiến lược và mục tiêu rõ ràng. Môi trường làm việc năng động, thân thiện, vui khoẻ và đầy thử thách theo phong cách chiến binh. Được sự hỗ trợ và tạo động lực hứng khởi, văn hoá hành động, cạnh tranh công bằng cùng phát triển, tinh thần làm việc chủ động, linh hoạt, thực chiến, cam kết, đoàn kết, kỷ luật và hợp tác, nhằm mang lại hiệu quả cao và bền vững.</p>
                     </div>
                     <div class="w-6/12 cover-img">
                         <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/juridical.png" alt="juridical">
-                    </div>
-                </div>
-            </div>
-            <div class="lg:w-4/12 md:w-6/12 pt-4 pl-4 pr-4">
-                <div class="flex md:items-start items-center">
-                    <div class="w-6/12 pr-4">
-                        <h4 class="text-sm font-medium mb-2">MỨC GIÁ ĐẦU TƯ HẤP DẪN</h4>
-                        <p class="text-xs text-justify">Hiện tại giá đất còn thấp so với tiềm năng khu vực và đây là cơ hội để nhiều nhà đầu tư ngày càng quan tâm khu vực này nhiều hơn</p>
-                    </div>
-                    <div class="w-6/12 cover-img">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/coin.png" alt="coin">
                     </div>
                 </div>
             </div>
