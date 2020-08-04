@@ -51,7 +51,7 @@
                 <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#gioi-thieu">Giới thiệu</a></li>
                 <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#tam-nhin">Tầm nhìn</a></li>
                 <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#chinh-sach">Chính sách</a></li>
-                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#ly-do">6 lý do</a></li>
+                <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#ly-do">5 lý do</a></li>
                 <li class="xl:mr-6 xl:mb-0 mb-6 xl:text-base text-xl font-medium"><a href="#lien-he">Liên Hệ</a></li>
                 <li class="font-medium">
                     <a href="tel:028 226 2727" class="btn-hotline">Hotline: 028.226.2727</a>

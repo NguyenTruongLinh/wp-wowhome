@@ -227,9 +227,9 @@ get_header();
             <p class="text-center mb-10">Chương trình hợp tác kinh doanh cùng WowHomes là mô hình khởi nghiệp, làm chủ doanh nghiệp trong lòng doanh nghiệp, với chính sách kinh doanh hiện đại, tạo động lực mạnh mẽ, sản phẩm có lợi thế cạnh tranh đặc biệt và số lượng lớn. Mang đến cơ hội phát triển sự nghiệp lâu dài, đồng hành cùng tạo ra giá trị cho bản thân, gia đình và xã hộ</p>
             <div class="flex flex-wrap py-4 border-2 border-primary bg-white" data-aos="fade-up" data-aos-duration="1000">
                 <div class="lg:w-4/12 md:w-6/12 border-b-2 md:border-r-2 border-primary pb-4 pr-4 pl-4">
-                    <div class="flex md:items-center items-center">
+                    <div class="flex md:items-start items-center">
                         <div class="w-6/12 cover-img">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/maps.png" alt="maps">
+                            <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/good-product.png" alt="maps">
                         </div>
                         <div class="w-6/12 pl-4">
                             <h4 class="text-sm font-medium mb-2">SẢN PHẨM TỐT</h4>
@@ -238,9 +238,9 @@ get_header();
                     </div>
                 </div>
                 <div class="lg:w-4/12 md:w-6/12 border-b-2 lg:border-r-2 border-primary md:pt-0 pt-4 pb-4 pr-4 pl-4">
-                    <div class="flex md:items-center items-center md:flex-row flex-row-reverse">
+                    <div class="flex md:items-start items-center md:flex-row flex-row-reverse">
                         <div class="w-6/12 cover-img">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/high-way.png" alt="high-way">
+                            <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/signature.png" alt="signature">
                         </div>
                         <div class="w-6/12 md:pl-4 pr-4">
                             <h4 class="text-sm font-medium mb-2">PHƯƠNG PHÁP TỐT</h4>
@@ -249,9 +249,9 @@ get_header();
                     </div>
                 </div>
                 <div class="lg:w-4/12 md:w-6/12 border-b-2 border-primary lg:border-r-0 md:border-r-2 lg:pt-0 pt-4 pb-4 pl-4 pr-4">
-                    <div class="flex md:items-center items-center">
+                    <div class="flex md:items-start items-center">
                         <div class="w-6/12 cover-img">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/signature.png" alt="signature">
+                            <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/su-nghiep.jpg" alt="signature">
                         </div>
                         <div class="w-6/12 pl-4">
                             <h4 class="text-sm font-medium mb-2">SỰ NGHIỆP TỐT</h4>
@@ -261,7 +261,7 @@ get_header();
                 </div>
 
                 <div class="lg:w-6/12 md:w-6/12 pt-4 pr-4 md:pb-0 pb-4 lg:border-r-2 lg:border-b-0 border-b-2 border-primary pl-4">
-                    <div class="flex md:items-center items-center">
+                    <div class="flex md:items-start items-center">
                         <div class="w-6/12 pr-4">
                             <h4 class="text-sm font-medium mb-2">CHÍNH SÁCH TỐT</h4>
                             <p class="text-xs text-justify">Chính sách kinh doanh hiện đại, hoa hồng hấp dẫn và tốc hành, vừa có thu nhập chủ động từ việc bán hàng, vừa có thu nhập thụ động từ việc phát triển hệ thống kinh doanh, có sự công bằng theo cả chiều ngang và chiều dọc. Tạo động lực lớn khi những nỗ lực của ngày hôm nay được kế thừa trong tương lai</p>
@@ -272,13 +272,13 @@ get_header();
                     </div>
                 </div>
                 <div class="lg:w-6/12 md:w-6/12 pt-4 pr-4 md:pb-0 pb-4 border-primary">
-                    <div class="flex md:items-center items-center md:flex-row flex-row-reverse">
+                    <div class="flex md:items-start items-center md:flex-row flex-row-reverse">
                         <div class="w-6/12 md:pr-4 pl-4">
                             <h4 class="text-sm font-medium mb-2">MÔI TRƯỜNG TỐT</h4>
                             <p class="text-xs text-justify">Lãnh đạo tâm huyết, định hướng lâu dài, chiến lược và mục tiêu rõ ràng. Môi trường làm việc năng động, thân thiện, vui khoẻ và đầy thử thách theo phong cách chiến binh. Được sự hỗ trợ và tạo động lực hứng khởi, văn hoá hành động, cạnh tranh công bằng cùng phát triển, tinh thần làm việc chủ động, linh hoạt, thực chiến, cam kết, đoàn kết, kỷ luật và hợp tác, nhằm mang lại hiệu quả cao và bền vững.</p>
                         </div>
                         <div class="w-6/12 cover-img">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/juridical.png" alt="juridical">
+                            <img src="<?php echo get_template_directory_uri() ?>/images/top-reason/moi-truong.jpg" alt="juridical">
                         </div>
                     </div>
                 </div>
