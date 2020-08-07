@@ -17,12 +17,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri() ?>/images/favicon.png" sizes="32x32" />
+    <meta name="description" content="Định vị trở thành đơn vị phát triển, hệ thống phân phối bất động sản hàng đầu tại Việt Nam, WOWHOMES tự hào là thương hiệu tiên phong và uy tín trong phân khúc nghỉ dưỡng, đất nền ven biển và mô hình đầu tư xanh bền vững có sự cam kết nhất quán cùng chính sách bán hàng hấp dẫn nhất thị trường."/>
+    <meta name="keywords" content="broker, wowhome"/>
+    <meta name="author" content="broker.wowhomes.vn"/>
     <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
+    <meta name="og:description" content="Định vị trở thành đơn vị phát triển, hệ thống phân phối bất động sản hàng đầu tại Việt Nam, WOWHOMES tự hào là thương hiệu tiên phong và uy tín trong phân khúc nghỉ dưỡng, đất nền ven biển và mô hình đầu tư xanh bền vững có sự cam kết nhất quán cùng chính sách bán hàng hấp dẫn nhất thị trường."/>
     <meta property="og:title" content="Trang chủ - Broker WowHomes" />
     <meta property="og:url" content="http://broker.wowhomes.vn/" />
     <meta property="og:site_name" content="Broker WowHomes" />
-    <meta property="og:image" content="http://wowhomes.vn/wp-content/uploads/2019/10/faviicon-wow.png">
+    <meta property="og:image" content="<?php echo get_template_directory_uri() ?>/images/logo_final-01.png">
+    <meta property="og:image:url" content="<?php echo get_template_directory_uri() ?>/images/logo_final-01.png">
+    <meta property="og:image:width" content="600"/>
+    <meta property="og:image:height" content="320"/>
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Trang chủ - Broker WowHomes" />
     <?php wp_head(); ?>
